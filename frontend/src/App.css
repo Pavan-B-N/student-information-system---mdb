@@ -1,0 +1,13 @@
+.logout{
+    width: max-content;
+    background-color: rgb(203, 23, 23);
+    color: white;
+}
+.logout:hover{
+    background-color:red;
+}
+.link{
+    text-decoration: none;
+    color: blueviolet;
+    padding:10px 0;
+}

@@ -1,0 +1,53 @@
+/* MyGrades.css */
+
+.grades-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .loading-container,
+  .error-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .loading-container p,
+  .error-container p {
+    margin-left: 10px;
+  }
+  
+  .grades-details {
+    background-color: hotpink;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 500px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    max-height: 500px;
+    /* margin: 20px auto; */
+    font-size: 1.3rem;
+  }
+  
+  .grades-details.pass {
+    background-color: #82f39c;
+    color: black;
+  }
+  
+  .details {
+    text-align: left;
+  }
+  
+  .grades-details h3 {
+    margin-bottom: 10px;
+  }
+  .mygrade-container{
+    display: flex;
+    align-items: stretch;
+    justify-content: center !important;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+  }

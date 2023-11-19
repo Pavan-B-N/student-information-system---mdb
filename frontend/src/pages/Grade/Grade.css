@@ -1,0 +1,86 @@
+/* AddStudentGradesForm.css */
+
+.add-student-grades-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.add-student-grades-form {
+    width: 700px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.details-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.2fr;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+    /* background-color: yellow; */
+    /* display: flex;
+    margin-bottom: 10px;
+
+    label {
+        width: 80px;
+        margin-right: 10px;
+    }
+
+  */
+}
+.remove-btn {
+    width: 30px ;
+    height: 30px;
+    padding: 5px;
+    background-color: #d42424;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    align-self: center;
+    margin-top: 14px;
+}
+.error-message {
+    background-color: #ffcccc;
+    color: #ff0000;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.add-btn{
+    margin:10px 0 !important;
+    background:rgb(194, 208, 87) !important;
+}
